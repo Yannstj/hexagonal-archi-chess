@@ -1,0 +1,8 @@
+version: "3"
+
+tasks:
+  default:
+    desc: "Démarrer l'application Spring Boot"
+    cmds:
+      - ./mvnw spring-boot:run
+    silent: true
